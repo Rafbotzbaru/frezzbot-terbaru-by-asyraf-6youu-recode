@@ -82,7 +82,7 @@ exports.OkUnMute = () => {
     return `Bot Berhasil Di UnMute`
 }
 exports.OkUnBanC = () => {
-    return `Bot Berhasil Di unban chat`
+    return `Aowkwowk Kasian Gcnya Dibanchat Ama Bot`
 }
 exports.NoMute = () => {
     return `Bot belum di ban dalam group ini`
@@ -392,13 +392,13 @@ exports.NoAnon = () => {
 }
 
 exports.AllFitur = () => {
-    return `\n_Semua fitur bot_`
+    return `\n_Semua fitur frezz bot_`
 }
 exports.InfoMenu = () => {
-    return `\n_Mencari informasi terkini melalui bot_`
+    return `\n_Mencari informasi terkini melalui frezz bot_`
 }
 exports.KhususOwn = () => {
-    return `\n_Fitur khusus owner bot_`
+    return `\n_Fitur khusus owner frezz bot_`
 }
 exports.DataBor = () => {
     return `\n_Menyimpan sesuatu di database bot_`
@@ -419,7 +419,7 @@ exports.Hoja = () => {
     return `\n_Mencari sesuatu yang gk penting_`
 }
 exports.CovertWi = () => {
-    return `\n_Mengkorversi sesuatu dengan bot_`
+    return `\n_Mengkorversi sesuatu dengan frezz bot_`
 }
 exports.AnuFoto = () => {
     return `\n_Mengubah gambar jadi lebih menarik_`
@@ -437,13 +437,13 @@ exports.ImageDewasa = () => {
     return `\n_Random image anime 18+_`
 }
 exports.MakeLogo = () => {
-    return `\n_Untuk membuat logo menggunakan bot_`
+    return `\n_Untuk membuat logo menggunakan frezz bot_`
 }
 exports.oterMenu = () => {
     return `\n_Menu lainnya_`
 }
 exports.GameBot = () => {
-    return `\n_Fitur untuk bermain dengan bot_`
+    return `\n_Fitur untuk bermain dengan frezz bot_`
 }
 exports.RandRik = () => {
     return `\n_Random video tiktok_`
@@ -476,19 +476,19 @@ exports.GadaChat = () => {
     return `\n_Fitur untuk melakukan chat random_`
 }
 exports.SumberBot = () => {
-    return `\n_Sumber script bot ini_`
+    return `\n_Sumber script frezz bot ini_`
 }
 exports.Tqnya = () => {
-    return `\n_Siapa aja yang berkontribusi di dalam bot ini_`
+    return `\n_Siapa aja yang berkontribusi di dalam frezz bot ini_`
 }
 exports.SetAh = () => {
     return `Mau set menu ya ?`
 }
 exports.KickAh = (gc) => {
-    return `*Antilink Group Terdeteksi*\n\nKamu akan dikeluarkan dari group ${gc}`
+    return `Hdeh Yatim Kontol Malah Share Link Bokep Tunggu Ntar Cil Mau Gw Sulapin`
     }
     exports.GjdKick = () => {
-    return `Sepertinya kamu mengirimkan link group ini, kamu tidak akan di keluarkan`
+    return `Gw G Jadi Kick, Ampun Bg🗿`
     }
 /////////
 
@@ -577,7 +577,7 @@ exports.videoLimit = () => {
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}", bukan angka tolol!`
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
@@ -587,7 +587,7 @@ saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List Menu Frezz Botz :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -604,6 +604,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ > evaluate
 ├ $ exec
 ├ => exec
+├ ${prefix}simifrezzbot [on/off]
 ├ ${prefix}setmenu [query]
 ├ ${prefix}setmenu templateLocation
 ├ ${prefix}setmenu templateTenor
@@ -621,7 +622,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}mute [on/off]
 ├ ${prefix}banchat
 ├ ${prefix}unbanchat
-├ ${prefix}autorespond [on/off]
 ├ ${prefix}antiviewonce [on/off]
 ├ ${prefix}autobio [on/off]
 ├ ${prefix}join [link]
@@ -1449,77 +1449,63 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}sound70
 
 ╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
+├ Recorder (Asyraf 6Youu)
 ├ ZeeoneOfc
-├ Penyedia Module
 ╰❒ And All Support
     `
 }
 
 exports.rules = (prefix) => {
     return `
-*── 「 RULES AND FAQ 」 ──*
+NO SPAM KONTOL
+NO CALL MEK
 
-1. Jangan spam bot. 🙅
-2. Jangan telepon bot. ☎️
-3. Jangan membandingkan bot 👍
-
-🗯️ Bot tidak atau lambat merespon ?
-➡️ Mungkin dipengaruhi oleh jaringan, signal, banned oleh Whatsapp dan beberapa asalan.
-
-🗯️ Dimana saya bisa mendapatkan Script dari bot ini ?
-➡️ Script ini bisa kalian dapatkan di YouTube ZEEONE OFC
-
-🗯️ Boleh saya menambah ke grup?
-➡️ Untuk itu tergantung dari owner bot sendiri
-
-🗯️ Prefixnya apa ya?
-➡️ Bot ini menggunakan multi prefix & bisa kamu gunakan tanpa prefix
-
-Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
-
-⚠️ Segala kebijakan dan ketentuan bot dapat berubah kapan saja 
-
-Terimakasih! 
+MAU SC RECORDER/ORI?
+ORI : CARI DIYT "ZeeoneOf"
+RECORDER : Wa Owner
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
-	
-╭ 𝖭𝖺𝗆𝖺 :
-├ 𝖴𝗆𝗎𝗋 :
-├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
-├ 𝖠𝗌𝗄𝗈𝗍 :
-╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+	return`Hy Yatim
+Welcome To Group Siksaan Neraka
+
+Gabung Group Gw Mek :
+😈₲ⱤɄ₱ ฿Ø₮Ⱬ ꋬꇙꌦꋪꋬꊰ 6ꌦꄲ꒤꒤¹😈
+
+GROUP 1:
+https://chat.whatsapp.com/CRrj0z3HgeX39XHNUt0M9V
+GROUP 2:
+https://chat.whatsapp.com/Da7ZPf7mC8T3nERBpWPcgt
+GROUP 3:
+https://chat.whatsapp.com/BdwNQqYBwDN5UtvievnDEe`
 }
 exports.leave = () =>{
-	return`Yah kok out 😣 Mental aman kan kak >.<
-Goodbye`
+	return`Kontol Yatim 
+Beban Out Ngentod
+
+Motivasi :
+
+Tetap Putus Asa
+Jangan Pernah Semangat
+Dan Jadilah Yatim Beban Keluarga`
 }
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Sc Ori : https://youtu.be/4vVfY8Yyb1A
+Sc Recode : httpa://wa.me/6281946945315
 `
 }
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
-
-Thanks!
+Hai Dek 
+Lu Mau Donasu Beneran G Dek?
+Dana : 085646606905
+Gopay : 081946945315
+Pulsa : 085646606905
 
 Contact person Owner:
 wa.me/${ownernomer}
@@ -1544,12 +1530,7 @@ return`╭─❒ 「 Owner 」
 ├ > evaluate
 ├ $ exec
 ├ => exec
-├ ${prefix}setmenu [query]
-├ ${prefix}setmenu templateLocation
-├ ${prefix}setmenu templateTenor
-├ ${prefix}setmenu katalog
-├ ${prefix}setmenu katalog2
-├ ${prefix}setmenu list
+├ ${prefix}simifrezzbot [on/off]
 ├ ${prefix}setwm packname|author
 ├ ${prefix}sendsesi
 ├ ${prefix}listpc
@@ -1561,7 +1542,6 @@ return`╭─❒ 「 Owner 」
 ├ ${prefix}mute [on/off]
 ├ ${prefix}banchat
 ├ ${prefix}unbanchat
-├ ${prefix}autorespond [on/off]
 ├ ${prefix}antiviewonce [on/off]
 ├ ${prefix}autobio [on/off]
 ├ ${prefix}join [link]
@@ -2118,16 +2098,8 @@ return`╭─❒ 「 Random Cewe 」
 
 exports.tqto = () =>{
 	return`╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
+├ Recorder (Asyraf 6Youu)
 ├ ZeeoneOfc
-├ Penyedia Module
 ╰❒ And All Support
 `
 }
