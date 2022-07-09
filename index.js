@@ -1530,7 +1530,7 @@ break
 				let ownernya = ownernomer + '@s.whatsapp.net'
 				var ini_anu =`Hi ${pushname}
 
-╭─❒ 「 Bot Info 」 
+╭─❒ 「 Frezz Bot Info 」 
 ├ Creator :  @${ownernya.split('@')[0]}
 ├ Powered  : @${ini_mark.split('@')[0]}
 ├ Prefix :   ${prefix}
@@ -1549,9 +1549,9 @@ break
 ╰❒ Owner : ${isCreator ? 'True' : `False`}
 `	
 const buttojns = [
-  {buttonId: 'command', buttonText: {displayText: '📖 List Menu'}, type: 1},
-  {buttonId: 'owner', buttonText: {displayText: '🙍‍♂️ Owner'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: '💰 Donation'}, type: 1}
+  {buttonId: 'command', buttonText: {displayText: '🤖 Frezz Bot '}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: '😎 Owner Ganz'}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: '💰 Donasi'}, type: 1}
 ]			
 					if(typemenu == 'document'){
 							alpha.sendButDoc(from, ini_anu,  '© ' + ownername, botname , ownername, `WhatsApp Bot Multi Device`, time, pp_bot, pp_bot, buttojns, [ownernya, ini_mark, sender], { quoted: ftroli})
