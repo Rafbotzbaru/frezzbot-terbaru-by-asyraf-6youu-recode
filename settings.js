@@ -1,6 +1,6 @@
 const fs = require('fs')
 const chalk = require('chalk')
-const  { indonesia, english} = require(`./language`)
+const  { indonesia, english } = require(`./language`)
 
 // Website Api
 global.APIs = {
@@ -13,13 +13,13 @@ global.APIKeys = {
 }
 
 // setting 
-global.autoread = false // auto read pesan / message
+global.autoread = true // auto read pesan / message
 global.autobio = true 
 
 //language
 //Available in indonesia & english
 //You can request others language 
-global.language = english  //change indonesia to english if you don't understand the language used by the bot
+global.language = indonesia  //change indonesia to english if you don't understand the language used by the bot
 
 
 // Other
