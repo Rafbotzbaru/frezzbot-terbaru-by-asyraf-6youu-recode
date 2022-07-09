@@ -207,7 +207,7 @@ return`Ex : ${prefix + command} ${surah}|${ayat}\nUsage: ${prefix + command} ${b
 }
 
 exports.JwbErr = () => {
-    return `❌ Jawaban Salah`
+    return `Salah Jawabannya Tolol`
 }
 
 exports.JwbTrue = (tebak) => {
@@ -497,7 +497,7 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `Sedang Mencomli Kak Ros...`
 }
 exports.ok = () => {
     return `✅ Done.`
@@ -529,7 +529,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `Lu Bukan Owner Tolol, Jan Sok Nguasai Bot Kontol`
 }
 
 exports.doneOwner = () => {
@@ -555,7 +555,7 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `Dia Bukak Admij Tolol`
 }
 
 exports.adminAlready = () => {
@@ -563,13 +563,13 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Lu Buta?Gw Admin?Ngga Kan kontol, Tolol Buta`
 }
 
 exports.received = (pushname) => {
     return `
 Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima.`
+Terima kasih telah melapor, laporanmu akan kami segera tidak diperdulikan.`
 }
 
 exports.videoLimit = () => {
@@ -605,12 +605,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ $ exec
 ├ => exec
 ├ ${prefix}simifrezzbot [on/off]
-├ ${prefix}setmenu [query]
-├ ${prefix}setmenu templateLocation
-├ ${prefix}setmenu templateTenor
-├ ${prefix}setmenu katalog
-├ ${prefix}setmenu katalog2
-├ ${prefix}setmenu list
 ├ ${prefix}setwm packname|author
 ├ ${prefix}sendsesi
 ├ ${prefix}listpc
