@@ -33,7 +33,7 @@ exports.DelCmd = () =>{
 	return`✅ Sticker cmd telah di hapus`
 	}
 exports.LockCmd = () =>{
-	return`Reply pesan`
+	return`Reply pesannya tolol`
 	}
 exports.NoCmd = () =>{
 	return`Hash tidak ditemukan di database`
@@ -64,13 +64,13 @@ exports.DelMsg = (text) => {
 }
 
 exports.OnBef = () => {
-    return `Sudah di aktifkan sebelumnya`
+    return `Sudah di aktifkan sebelumnya tolol`
 }
 exports.OffYaBef = () => {
-    return `Sudah di nonaktifkan sebelumnya`
+    return `Sudah di nonaktifkan sebelumnya tolol`
 }
 exports.OkOn = (command) => {
-    return `${command} Berhasil Di Aktifkan !`
+    return `${command} Berhasil Di Aktifkan tolol`
 }
 exports.OffBef = (command) => {
     return `${command} Berhasil Di Nonaktifkan !`
@@ -128,13 +128,13 @@ exports.SetPpGc = (prefix, command) => {
     return `Kirim/Reply Image Dengan Caption ${prefix + command}`
 }
 exports.JoinGc = () => {
-    return `Masukkan Link Group!`
+    return `Masukkan Link Groupnya tolol!`
 }
 exports.MauKick = () => {
-    return `Kirim nomer/tag/reply target yang ingin di kick !`
+    return `Kirim nomer/tag/reply target yang ingin di kick tolol`
 }
 exports.MauAdd = () => {
-    return `Kirim nomer/tag/reply target yang ingin di add !`
+    return `Kirim nomer/tag/reply target yang ingin di add tolol`
 }
 exports.NakPm= () => {
     return `Kirim nomer/tag/reply target yang ingin di promote !`
@@ -211,7 +211,7 @@ exports.JwbErr = () => {
 }
 
 exports.JwbTrue = (tebak) => {
-return`🎮 ${tebak} 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`
+return`🎮 ${tebak} 🎮\n\nJawaban Benar tolol🎉\n\nIngin bermain lagi? tekan button dibawah`
 }
 exports.TbGam = () => {
     return `Tebak Gambar`
@@ -401,7 +401,7 @@ exports.KhususOwn = () => {
     return `\n_Fitur khusus owner frezz bot_`
 }
 exports.DataBor = () => {
-    return `\n_Menyimpan sesuatu di database bot_`
+    return `\n_Menyimpan sesuatu di database frezz bot_`
 }
 exports.MenuGc = () => {
     return `\n_Menampilkan fitur khusus group_`
@@ -458,7 +458,7 @@ exports.TeleStik= () => {
     return `\n_Random stiker dari telegram_`
 }
 exports.BuatLogoLagi = () => {
-    return `\n_Membuat logo keren dengan bot_`
+    return `\n_Membuat logo keren dengan frezz bot_`
 }
 exports.SoundNih= () => {
     return `\n_Random sound_`
@@ -482,7 +482,7 @@ exports.Tqnya = () => {
     return `\n_Siapa aja yang berkontribusi di dalam frezz bot ini_`
 }
 exports.SetAh = () => {
-    return `Mau set menu ya ?`
+    return `Frezz Bot Menu Cadangan`
 }
 exports.KickAh = (gc) => {
     return `Hdeh Yatim Kontol Malah Share Link Bokep Tunggu Ntar Cil Mau Gw Sulapin`
@@ -494,30 +494,30 @@ exports.KickAh = (gc) => {
 
 /////////
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat`
+	return`Fitur hanya bisa di gunakan di private chat tolol`
 	}
 exports.wait = () => {
     return `Sedang Mencomli Kak Ros...`
 }
 exports.ok = () => {
-    return `✅ Done.`
+    return `Succes Mencoli Kak Ros Sampai Hamil`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `eror tolol`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `Link nya error tolol`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Silahkan pilih media yang ingin kamu download bokep`
 }
 exports.replyImg = (prefix, command) => {
     return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format salah tolol, coba cek cara penggunaan di *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
@@ -533,7 +533,7 @@ exports.ownerOnly = () => {
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `Sudah selesai, Owner terganteng didunia`
 }
 
 exports.groupOnly = () => {
@@ -555,7 +555,7 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `Dia Bukak Admij Tolol`
+    return `Dia Bukan Admim Tolol`
 }
 
 exports.adminAlready = () => {
@@ -1488,7 +1488,7 @@ return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
 Sc Ori : https://youtu.be/4vVfY8Yyb1A
-Sc Recode : httpa://wa.me/6281946945315
+Sc Recode : httpa://wa.me/6281946945315?
 `
 }
 exports.tos = (ownernomer) => {
