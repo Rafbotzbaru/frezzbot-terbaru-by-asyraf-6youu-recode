@@ -834,13 +834,13 @@ if (!m.isGroup) return reply(lang.groupOnly())
           },
           {
             "quickReplyButton": {
-              "displayText": "Owner",
+              "displayText": "Owner Ganz",
 "id": 'owner'
             }
           },
 {
             "quickReplyButton": {
-              "displayText": "List Command",
+              "displayText": "Menu Frezz Bot",
 "id": 'command'
             }
           }
