@@ -541,7 +541,7 @@ exports.groupOnly = () => {
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `Khusus Admin Tolol, Lu Cuman Member Dek`
 }
 
 exports.nhFalse = () => {
