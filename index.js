@@ -1215,8 +1215,8 @@ break
                 if (!isBotAdmins) return reply(lang.botNotAdmin())
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
                 if (!m.quoted && !text) return reply(lang.MauAdd())
-				let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-				await alpha.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+				let users = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net
+  		                await alpha.groupParticipantsUpdate(m.chat, [users], 'add').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 				}
 				break
 			case 'promote': {
@@ -1489,16 +1489,27 @@ delete tekateki[m.sender.split('@')[0]]
 }
 break
             case 'menubot':{
-            	if (!m.key.fromMe && !isCreator) return reply(lang.groupOnly())
-            const listhades = ['owner', 'templateTenor','list', 'document',  'katalog', 'katalog2']
-			alpha.sendList(from, lang.SetAh(), `© ${ownername}`, salam + ' ' +  pushname, 'Click Here', [
-							{"title": "All Menu Frezz Bot","rows": [{"title": "Owner Ganteng","rowId": "Owner"}]},{"title": "Script Frezz Bot","rows": [{"title": "Buat Logo","rowId": "logomenu"}]},{"title": "Thanks To","rows": [{"title": "Teks Pro","rowId": "Tekspro"}]},{"title": "Buy Script","rows": [{"title": "","rowId": ""}]},{"title": "Donasi","rows": [{"title": "Bokep","rowId": "hentai"}]
+            	if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
+            const listhades = ['templateLocation', 'templateTenor','list', 'document',  'katalog', 'katalog2']
+			alpha.sendList(from, lang.SetAh(), `© ${ownername`, salam + ' ' +  pushname, 'Click Here', [
+							{"title": "Set Menu-1","rows": [{"title": "Template Button Location","rowId": "setmenu templateLocation"}]},{"title": "Set Menu-2","rows": [{"title": "Template Button Tenor","rowId": "setmenu templateTenor"}]},{"title": "Set Menu-3","rows": [{"title": "Menu Katalog","rowId": "setmenu katalog"}]},{"title": "Set Menu-4","rows": [{"title": "Menu Katalog Diskon","rowId": "setmenu katalog2"}]},{"title": "Set Menu-5","rows": [{"title": "Menu List Message","rowId": "setmenu list"}]
 							},{
-								"title": "MENU FREZZ BOT 1",
+								"title": "Set Menu-6",
 								"rows": [
 									{
-										"title": "MENU FREZZ BOT -1",
-										"rowId": "MENU FREZZ BOT"
+										"title": "Menu Document",
+										"rowId": "setmenu document"
+									}
+								]
+							}], {quoted:fgif})
+                if (!listhades.includes(text)) return alpha.sendList(from, lang.SetAh(), `© ${ownername}`, salam + ' ' + pushname, 'Click Here', [
+							{"title": "Set Menu-1","rows": [{"title": "Template Button Location","rowId": "setmenu templateLocation"}]},{"title": "Set Menu-2","rows": [{"title": "Template Button Tenor","rowId": "setmenu templateTenor"}]},{"title": "Set Menu-3","rows": [{"title": "Menu Katalog","rowId": "setmenu katalog"}]},{"title": "Set Menu-4","rows": [{"title": "Menu Katalog Diskon","rowId": "setmenu katalog2"}]},{"title": "Set Menu-5","rows": [{"title": "Menu List Message","rowId": "setmenu list"}]
+							},{
+								"title": "Set Menu-6",
+								"rows": [
+									{
+										"title": "Menu Document",
+										"rowId": "setmenu document"
 									}
 								]
 							}], {quoted:fgif})
@@ -1544,9 +1555,9 @@ break
 
 `	
 const buttojns = [
-  {buttonId: 'command', buttonText: {displayText: '🤖 Menu Frezz Bot 1'}, type: 1},
+  {buttonId: 'command', buttonText: {displayText: '🤖 Menu Frezz Bot'}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: '😎 Owner Ganz'}, type: 1},
-  {buttonId: 'menubot', buttonText: {displayText: '👾 Menu Frezz Bot 2'}, type: 1}
+  {buttonId: 'menubot', buttonText: {displayText: '🗿 Menu Gabut Owqner'}, type: 1}
 ]			
 					if(typemenu == 'document'){
 							alpha.sendButDoc(from, ini_anu,  '© ' + ownername, botname , ownername, `WhatsApp Bot Multi Device`, time, pp_bot, pp_bot, buttojns, [ownernya, ini_mark, sender], { quoted: ftroli})
