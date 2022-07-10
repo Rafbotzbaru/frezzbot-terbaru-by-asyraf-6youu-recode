@@ -611,7 +611,7 @@ reply(lang.DoneMsg(prefix, text))
         	alpha.sendButMessage(from, 'Mode Autobio', `© ${ownername}`, [{buttonId: 'autobio on', buttonText: {displayText: 'ON'}, type: 1},{buttonId: 'autobio off', buttonText: {displayText: 'OFF'}, type: 1}], {quoted: fgif})
 			}}
 			break
-			case 'autorespond': case 'autorespon': {
+			case 'simifrezzbot': case 'simibot': {
         if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
         if (args[0] === "on") {
       	if (global.db.data.settings[botNumber].autorespond) return reply(lang.OnBef())
@@ -1488,9 +1488,9 @@ delete tekateki[m.sender.split('@')[0]]
 }
 }
 break
-            case 'setmenu':{
-            	if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
-            const listhades = ['templateLocation', 'templateTenor','list', 'document',  'katalog', 'katalog2']
+            case 'menubot':{
+            	if (!m.key.fromMe && !isCreator) return reply(lang.groupOnly())
+            const listhades = ['owner', 'templateTenor','list', 'document',  'katalog', 'katalog2']
 			alpha.sendList(from, lang.SetAh(), `© ${ownername}`, salam + ' ' +  pushname, 'Click Here', [
 							{"title": "Set Menu-1","rows": [{"title": "Template Button Location","rowId": "setmenu templateLocation"}]},{"title": "Set Menu-2","rows": [{"title": "Template Button Tenor","rowId": "setmenu templateTenor"}]},{"title": "Set Menu-3","rows": [{"title": "Menu Katalog","rowId": "setmenu katalog"}]},{"title": "Set Menu-4","rows": [{"title": "Menu Katalog Diskon","rowId": "setmenu katalog2"}]},{"title": "Set Menu-5","rows": [{"title": "Menu List Message","rowId": "setmenu list"}]
 							},{
@@ -1547,11 +1547,17 @@ break
 ├ Nomor : @${sender.split('@')[0]}
 ├ Me : ${m.key.fromMe ? 'True' : 'False'}
 ╰❒ Owner : ${isCreator ? 'True' : `False`}
+
+╭─❒ 「 Sosmed Owner 」 
+├ Youtube : https://youtube.com/channel/UCY6WNM6jZlmfWULcG69rNbQ
+├ Instagram : https://instagram.com/asyrafsixyouu
+╰❒
+
 `	
 const buttojns = [
   {buttonId: 'command', buttonText: {displayText: '🤖 Frezz Bot '}, type: 1},
   {buttonId: 'owner', buttonText: {displayText: '😎 Owner Ganz'}, type: 1},
-  {buttonId: 'donasi', buttonText: {displayText: '💰 Donasi'}, type: 1}
+  {buttonId: 'menubot', buttonText: {displayText: '👾 Menu Cadangan'}, type: 1}
 ]			
 					if(typemenu == 'document'){
 							alpha.sendButDoc(from, ini_anu,  '© ' + ownername, botname , ownername, `WhatsApp Bot Multi Device`, time, pp_bot, pp_bot, buttojns, [ownernya, ini_mark, sender], { quoted: ftroli})
